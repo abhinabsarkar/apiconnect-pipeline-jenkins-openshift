@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ImageStream
+metadata:
+  creationTimestamp: null
+  labels:
+    application: jenkins-slave-apic
+    template: base-image-builder
+  name: jenkins-slave-apic
+spec: {}
+status:
+  dockerImageRepository: ""
